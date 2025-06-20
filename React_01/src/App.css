@@ -1,0 +1,97 @@
+nav{
+  border:2px solid black;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+}
+#first-box{
+  height: 18vh;
+  width: 22vw;
+  border: 2px solid brown;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vw;
+}
+
+#FirstRectangle{
+height: 98%;
+width: 30%;
+background-color: aqua;
+
+}
+#SecondRectangle{
+  height: 98%;
+width: 60%;
+background-color: red;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+#SmallRectangle{
+height: 75%;
+width: 75%;
+background-color: rgb(54, 26, 26);
+}
+
+#second-box{
+  height: 18vh;
+  width: 22vw;
+  border: 2px solid brown;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vw;
+}
+
+#SmallBox{
+ height: 16vh;
+  width: 20vw;
+  border: 2px solid rgb(165, 112, 112);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vw;
+}
+
+#Boxes{
+  height: 60%;
+  width: 40%;
+  background-color: black;
+}
+#third-box{
+   height: 20vh;
+  width: 12vw;
+  border: 2px solid brown;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1vw;
+}
+#fourt-box{
+  height: 20vh;
+  width: 20vw;
+  border: 2px solid brown;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vw;
+}
+#AnothetSmallbox{
+  height: 18vh;
+  width: 22vw;
+  border: 2px solid brown;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vw;
+}
