@@ -24,31 +24,26 @@ function Card() {
             description: 'This is the description for heading 4.'
         }
     ]
-  return (
-    <div className='w=full h-screen bg-slate-200 flex justify-center items-center'>
-        {data.map((value,index)=>(
-              <div className='card w-[10vw] h-[30vh] bg-white shadow-lg rounded-lg p-4 flex flex-col justify-between'>
-            <div className='w-[100%] h-[50%] rounded-lg'>
-                <img src={value.src}/>
-
-            
+return (
+    <div className='w-full h-screen bg-slate-200 flex justify-center items-center gap-6'>
+        {data.map((value, index) => (
+            <div key={index} className='card w-64 h-96 bg-white shadow-lg rounded-lg p-4 flex flex-col justify-between'>
+                <div className='w-full' style={{ height: '50%' }}>
+                    <img
+                        src={value.src}
+                        alt={value.heading}
+                        className="object-cover w-full h-full rounded-lg"
+                        style={{ height: '100%' }}
+                    />
+                </div>
+                <div className='flex flex-col justify-between h-1/2 mt-4'>
+                    <h2 className='text-lg font-bold'>{value.heading}</h2>
+                    <p className='text-sm text-gray-600 mt-2'>{value.description}</p>
+                </div>
             </div>
-
-            <div className='w-[100%] h-[15%]'>
-                <h2 className='text-lg font-bold'>{value.heading}</h2>
-
-            </div>
-             <div className='w-[100%] h-[15%]'>
-                <h2 className='text-lg font-bold'>{value.description}</h2>
-
-            </div>
-
-        </div>
         ))}
-      
-      
     </div>
-  )
+)
 }
 
 export default Card

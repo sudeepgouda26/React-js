@@ -6,7 +6,7 @@ export class Box4 extends Component {
   render() {
     return (
       <div id='fourt-box'>
-        <A
+    
       </div>
     )
   }
