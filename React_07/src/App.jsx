@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
+import Componets from './Components/Componets';
 
 const App = () => {
 
@@ -17,11 +18,13 @@ const App = () => {
  }
   return (
     <div>
-      <img src={src} />
+      {/* <img src={src} />
 
       <br></br>
 
-      {state? <button onClick={hanndelChangeOff}>Off</button>:<button onClick={hanndelChangeOn}>on</button>}
+      {state? <button onClick={hanndelChangeOff}>Off</button>:<button onClick={hanndelChangeOn}>on</button>} */}
+
+      <Componets></Componets>
     
            
 
