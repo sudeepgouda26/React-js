@@ -1,16 +1,15 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React, { Component } from 'react'
+import Product from './components/Product'
+import Cart from './components/Cart'
+import Makeup from './components/Makeup'
+import Data from "./components/Data.json"
 
-function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-     
-    </>
-  )
+export default class App extends Component {
+  render() {
+    return (
+      <div>
+       <Product box1={<Cart box2={<Makeup json={Data}/>}/>} />
+      </div>
+    )
+  }
 }
-
-export default App
