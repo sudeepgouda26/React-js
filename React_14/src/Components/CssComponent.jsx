@@ -1,12 +1,16 @@
 import React from 'react'
 import Hoc from './Hoc'
-const CssComponent = (props) => {
-    console.log(props.color);
+
+const CssComponent = ({toggeled}) => {
+    const bgColor = toggeled === "white" ? "bg-white" : "bg-black";
   return (
-    <div className="h-[30vh] w-[30vw] bg-gray-200">
-     <h2>hello</h2>
+ 
+       <div className={`w-[50vw] h-[30vh] ${bgColor} border-2 border-black flex justify-between items-center px-10`}>
+      {/* <button onClick={()=>{handleClick(toggeled)}}> change Color</button> */}
     </div>
+   
   )
 }
 
 export default Hoc(CssComponent)
+

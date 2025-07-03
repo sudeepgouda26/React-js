@@ -8,14 +8,12 @@ import HtmlComponent from './Components/HtmlComponent'
 import Nav from './Components/Nav'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
-  let ChangeColor = (color) => {
-    console.log(color);
-  }
+
   return (
   <div>
-    <Nav  ChangeColor={ ChangeColor}></Nav>
+    <Nav></Nav>
     <CssComponent></CssComponent>
     <HtmlComponent></HtmlComponent>
 
