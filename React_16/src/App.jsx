@@ -3,6 +3,7 @@ import { ThemeContextApi } from './Context/ThemeContextApi'
 import { theme } from './Context/ThemeContextApi'
 import Nav from './Component/Nav'
 import './App.css'
+import Component2 from './Component/Component2'
 
 const App = () => {
   return (
@@ -10,6 +11,8 @@ const App = () => {
       <ThemeContextApi value={theme}>
 
         <Nav/>
+        <Component2/>
+        <
 
       </ThemeContextApi>
     </div>
