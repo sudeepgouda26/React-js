@@ -1,6 +1,7 @@
 import React from 'react'
 import ContextProvider from './ConteaxtApi/ContextApi'
 import Cart from './Components/Cart'
+import Product from './Components/Product'
 
 const App = () => {
   return (
@@ -8,7 +9,8 @@ const App = () => {
 
       <ContextProvider>
         <Cart></Cart>
-        <Product></Product>
+       <Product></Product>
+       
       </ContextProvider>
       
     </div>

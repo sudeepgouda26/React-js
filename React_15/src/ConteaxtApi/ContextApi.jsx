@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { Children } from 'react'
 import { createContext } from 'react'
 
 export let ContextApi = createContext()
 
-let ContextProvider =()=>{
-    return <ContextApi.Provider value={"sudeep"}></ContextApi.Provider>
+let ContextProvider =({children})=>{
+    return <ContextApi.Provider value={"sudeep"}>
+
+        {children}
+    </ContextApi.Provider>
 }
 export default ContextProvider
