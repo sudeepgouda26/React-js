@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import axios from 'axios'
 
 const App = () => {
+  const [user, setUser] = useState([]);
 
   const [state, setState] = useState({
     name: '',
@@ -18,10 +19,20 @@ const App = () => {
     let user ={name, password}
    
    try{
-       let data = axios.post('http://localhost:8000/users',user)
+       let data =await axios.post('http://localhost:8000/users',user)
    }catch(err){
        console.log(err)
    }
+  }
+
+  let fetchRecords = async()=>{
+try{
+  let respose = await axios.get("http://localhost:8000/users");
+  setUser(respose.data);
+  
+}catch(err){
+  console.log(err);
+}
   }
   return (
     <div>
@@ -33,6 +44,18 @@ const App = () => {
      
       <input type="submit" placeholder='submit' />
       </form>
+
+
+      <div>
+        <button onClick={fetchRecords}>users</button>
+      </div>
+
+      {user.map((user)=>{
+        return(
+          <div>{user.name}</div>
+        )
+
+      })}
 
 
     </div>

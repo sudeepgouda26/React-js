@@ -9,6 +9,11 @@
       "id": "5aa1",
       "name": "BaluGouda",
       "password": "123456"
+    },
+    {
+      "id": "1adc",
+      "name": "Chatbot",
+      "password": "23456"
     }
   ]
 }
