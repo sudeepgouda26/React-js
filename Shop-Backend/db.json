@@ -1,0 +1,10 @@
+{
+    "users":[],
+    "products":[],
+
+    "orders":[],
+    "categories":[],
+    "reviews":[],
+    "carts":[]
+
+}
