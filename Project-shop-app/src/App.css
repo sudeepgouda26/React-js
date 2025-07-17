@@ -1,1 +1,34 @@
 @import "tailwindcss";
+.home-box {
+
+  position: relative;
+ 
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  text-align: center;
+  max-width: 400px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.home-box::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background: linear-gradient(to top, #3b82f6, transparent);
+  transition: height 0.3s ease;
+  z-index: 0;
+}
+
+.home-box:hover::after {
+  height: 30%;
+}
+
+.home-box * {
+  position: relative;
+  z-index: 1; /* Keep content above the gradient */
+}
