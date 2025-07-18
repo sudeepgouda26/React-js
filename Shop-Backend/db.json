@@ -1,10 +1,45 @@
 {
-    "users":[],
-    "products":[],
-
-    "orders":[],
-    "categories":[],
-    "reviews":[],
-    "carts":[]
-
+  "users": [
+    {
+      "id": "90aa",
+      "username": "Sudeep",
+      "email": "sudeepgouda26@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "e8c9",
+      "username": "Sudeep",
+      "email": "sudeepgouda26@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "402f",
+      "username": "Sudeep",
+      "email": "sudeepgouda26@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "c61e",
+      "username": "s",
+      "email": "sudeepgouda26123@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "b095",
+      "username": "balu",
+      "email": "sudeepgouda26123@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "625c",
+      "username": "Sudeep",
+      "email": "sudeepgouda26123@gmail.com",
+      "password": "123456"
+    }
+  ],
+  "products": [],
+  "orders": [],
+  "categories": [],
+  "reviews": [],
+  "carts": []
 }
