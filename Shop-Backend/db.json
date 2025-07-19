@@ -35,6 +35,12 @@
       "username": "Sudeep",
       "email": "sudeepgouda26123@gmail.com",
       "password": "123456"
+    },
+    {
+      "id": "daef",
+      "username": "Sudip",
+      "email": "sudeepgouda26123@gmail.com",
+      "password": "1234r6789"
     }
   ],
   "products": [],

@@ -1,12 +1,19 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { useNavigate } from 'react-router-dom';
+import { userContext } from '../UserContext/UserContext';
 
 const Userlogo = () => {
+  let {user} = useContext(userContext);
     let navigation = useNavigate();
   const navigate = () => {
-    navigation('/login')
-    
+    if (user) {
+    navigation('/')
+      
+    } else {
+      // If user is not logged in, navigate to the Login page
+      navigation('/login');
   };
+}
 
   return (
     <div className="w-12 h-12 flex items-center justify-center rounded-full bg-white/20 text-white font-bold text-xl shadow-inner">

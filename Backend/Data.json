@@ -1,29 +1,10 @@
 {
   "users": [
     {
-      "id": "2c38",
-      "name": "sudeep",
-      "password": "123456"
-    },
-    {
-      "id": "5aa1",
-      "name": "BaluGouda",
-      "password": "123456"
-    },
-    {
-      "id": "1adc",
-      "name": "Chatbot",
-      "password": "23456"
-    },
-    {
-      "id": "b52e",
-      "name": "sudeep",
-      "password": "12345678"
-    },
-    {
-      "id": "4ad3",
-      "name": "SUDEEP",
-      "password": "hjGADHG"
+      "id": "5ede",
+      "userName": "sudeep",
+      "userEmail": "sudeepgouda26123@gmail.com",
+      "userPassword": "123456789"
     }
   ]
 }
