@@ -47,5 +47,11 @@
   "orders": [],
   "categories": [],
   "reviews": [],
-  "carts": []
+  "carts": [],
+  "admin": {
+    "id": "admin",
+    "username": "admin",
+    "email": "admin@example.com",
+    "password": "admin123"
+  }
 }
