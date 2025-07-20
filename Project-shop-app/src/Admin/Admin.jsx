@@ -13,11 +13,12 @@ const Admin= () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    const { email, password } = adminData;
     try {
-      const response = await axios.get('http://localhost:5000/admins');
-      const admin = response.data.find(
-        (a) => a.email === adminData.email && a.password === adminData.password
-      );
+      const response = await axios.get('http://localhost:5000/admin');
+       console.log(response.data);
+        const admin = response.data.find((admin) => { return admin.email === email && admin.password === password; }); // Assuming the admin data is returned as an object
+        console.log(admin);
 
       if (admin) {
         alert('Admin login successful!');

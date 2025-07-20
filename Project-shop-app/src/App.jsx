@@ -5,6 +5,7 @@ import './App.css'
 import Login from './pages/Login'
 import Register from './pages/Register'
 import User from './pages/User'
+import Admin from './Admin/Admin'
 
 
 const router =createBrowserRouter([{
@@ -21,6 +22,9 @@ const router =createBrowserRouter([{
   {
     path:'/user',
     element:<User/>
+  },{
+    path:'/admin',
+    element:<Admin/>
   }
 ]
 }

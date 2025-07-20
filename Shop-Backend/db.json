@@ -43,15 +43,18 @@
       "password": "1234r6789"
     }
   ],
-  "products": [],
+  "addproducts": [],
   "orders": [],
   "categories": [],
   "reviews": [],
   "carts": [],
-  "admin": {
-    "id": "admin",
-    "username": "admin",
-    "email": "admin@example.com",
-    "password": "admin123"
-  }
+
+  "admin": [
+    {
+      "id": "admin",
+      "username": "admin",
+      "email": "admin@example.com",
+      "password": "admin123"
+    }
+  ]
 }
