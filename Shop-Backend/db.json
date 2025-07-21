@@ -46,25 +46,90 @@
   "addproducts": [
     {
       "id": "",
-      "title": "Brush",
-      "description": "clean your teeth",
-      "price": "20",
-      "category": "daily use",
+      "title": "Mobile",
+      "description": "get shokiphone",
+      "price": "70000",
+      "category": "Electronics",
+      "image": "https://static1.pocketnowimages.com/wordpress/wp-content/uploads/2023/09/pbi-iphone-15.png"
+    },
+    {
+      "id": "",
+      "title": "Charger",
+      "description": "charger",
+      "price": "400",
+      "category": "Electronics",
+      "image": "https://media.croma.com/image/upload/v1675860422/Croma%20Assets/Communication/Chargers%20and%20Batteries/Images/232594_0_lnwm5m.png"
+    },
+    {
+      "id": "",
+      "title": "screen guard",
+      "description": "protect your screem",
+      "price": "123",
+      "category": "Electronics",
+      "image": "https://n2.sdlcdn.com/imgs/j/d/q/OPPO-A5s-Tempered-Glass-Screen-SDL567821035-1-b1b8a.jpg"
+    },
+    {
+      "id": "",
+      "title": "poweBank",
+      "description": "charge multiple device at a time",
+      "price": "1230",
+      "category": "Electronics",
       "image": "https://tse3.mm.bing.net/th/id/OIP.K1IxKRtwdU7YOh1dM9Op9QHaDz?pid=Api&P=0&h=180"
     },
     {
       "id": "",
-      "title": "Brush",
-      "description": "clean your teeth",
-      "price": "20",
-      "category": "daily use",
+      "title": "tv",
+      "description": "watch tv",
+      "price": "23000",
+      "category": "Electronics",
+      "image": "https://tse3.mm.bing.net/th/id/OIP.K1IxKRtwdU7YOh1dM9Op9QHaDz?pid=Api&P=0&h=180"
+    },
+    {
+      "id": "",
+      "title": "tv",
+      "description": "watch tv",
+      "price": "23000",
+      "category": "Electronics",
       "image": "https://tse3.mm.bing.net/th/id/OIP.K1IxKRtwdU7YOh1dM9Op9QHaDz?pid=Api&P=0&h=180"
     }
   ],
   "orders": [],
   "categories": [],
   "reviews": [],
-  "carts": [],
+  "carts": [
+    {
+      "id": "",
+      "title": "Mobile",
+      "description": "get shokiphone",
+      "price": "70000",
+      "category": "Electronics",
+      "image": "https://static1.pocketnowimages.com/wordpress/wp-content/uploads/2023/09/pbi-iphone-15.png"
+    },
+    {
+      "id": "",
+      "title": "Charger",
+      "description": "charger",
+      "price": "400",
+      "category": "Electronics",
+      "image": "https://media.croma.com/image/upload/v1675860422/Croma%20Assets/Communication/Chargers%20and%20Batteries/Images/232594_0_lnwm5m.png"
+    },
+    {
+      "id": "",
+      "title": "Mobile",
+      "description": "get shokiphone",
+      "price": "70000",
+      "category": "Electronics",
+      "image": "https://static1.pocketnowimages.com/wordpress/wp-content/uploads/2023/09/pbi-iphone-15.png"
+    },
+    {
+      "id": "",
+      "title": "poweBank",
+      "description": "charge multiple device at a time",
+      "price": "1230",
+      "category": "Electronics",
+      "image": "https://tse3.mm.bing.net/th/id/OIP.K1IxKRtwdU7YOh1dM9Op9QHaDz?pid=Api&P=0&h=180"
+    }
+  ],
   "admin": [
     {
       "id": "admin",
