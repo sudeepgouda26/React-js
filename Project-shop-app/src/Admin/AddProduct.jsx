@@ -1,3 +1,4 @@
+import axios from 'axios'
 import React from 'react'
 import { useState } from 'react'
 
@@ -15,9 +16,27 @@ const AddProduct = () => {
     const { name, value } = e.target
     setProduct({ ...product, [name]: value })
   }
+  let{id,title,description,price,category,image}=product;
 
   const handleSubmit = (e) => {
+
+ 
     e.preventDefault()
+      let productData = {
+      id,
+      title,
+      description,
+      price,
+      category,
+      image
+    }
+    try{
+        let product = axios.post("http://localhost:5000/addproducts", productData)
+        alert("Product added successfully")
+
+    }catch(err){
+      console.error('Error adding product:', err);
+    }
     // Add product to the database
   }
     return (

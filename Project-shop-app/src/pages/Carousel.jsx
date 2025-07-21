@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import Login from './Login';
+import { userContext } from '../UserContext/UserContext';
 
 const images = [
   'https://tse2.mm.bing.net/th/id/OIP.RaoNOjhR-10yEYwpD-VlMAHaEK?pid=Api&P=0&h=180',
@@ -9,6 +11,7 @@ const images = [
 ];
 
 const Carousel = () => {
+  const { user } = React.useContext(userContext);
   const [current, setCurrent] = useState(0);
 
   useEffect(() => {
@@ -18,7 +21,8 @@ const Carousel = () => {
     return () => clearInterval(interval);
   }, []);
 
-  return (
+  return ( <>
+  {user ? (
     <div className="w-full h-[70vh] overflow-hidden relative">
       <AnimatePresence>
         <motion.img
@@ -31,7 +35,8 @@ const Carousel = () => {
           className="absolute w-full h-full object-cover rounded-xl shadow-lg"
         />
       </AnimatePresence>
-    </div>
+    </div>) :""}
+    </>
   );
 };
 

@@ -1,6 +1,7 @@
 import React,{ useState } from 'react';
 import axios from 'axios';
-import { Outlet, useNavigate } from 'react-router-dom';
+import { Link, Outlet, useNavigate } from 'react-router-dom';
+import AdminDashboard from './AdminDashboard';
 
 const Admin = () => {
   const [admin, setAdmin] = useState(false);
@@ -36,7 +37,10 @@ const Admin = () => {
   };
 
   return (
+    <>
+
     <div className="min-h-screen flex items-center justify-center bg-gray-900 px-4">
+      
       <div className="w-full">
         {!admin ? (
           <form
@@ -69,10 +73,16 @@ const Admin = () => {
               Login
             </button>
           </form>
-        ) : null}
-        <Outlet />
+        ) :  (<Outlet/>)}
+       
       </div>
+      
+     
+      
+
     </div>
+     
+    </>
   );
 };
 

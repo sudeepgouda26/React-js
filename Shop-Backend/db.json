@@ -43,12 +43,28 @@
       "password": "1234r6789"
     }
   ],
-  "addproducts": [],
+  "addproducts": [
+    {
+      "id": "",
+      "title": "Brush",
+      "description": "clean your teeth",
+      "price": "20",
+      "category": "daily use",
+      "image": "https://tse3.mm.bing.net/th/id/OIP.K1IxKRtwdU7YOh1dM9Op9QHaDz?pid=Api&P=0&h=180"
+    },
+    {
+      "id": "",
+      "title": "Brush",
+      "description": "clean your teeth",
+      "price": "20",
+      "category": "daily use",
+      "image": "https://tse3.mm.bing.net/th/id/OIP.K1IxKRtwdU7YOh1dM9Op9QHaDz?pid=Api&P=0&h=180"
+    }
+  ],
   "orders": [],
   "categories": [],
   "reviews": [],
   "carts": [],
-
   "admin": [
     {
       "id": "admin",
