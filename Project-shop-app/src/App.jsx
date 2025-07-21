@@ -9,6 +9,7 @@ import Admin from './Admin/Admin'
 import AddProduct from './Admin/AddProduct'
 import AdminDashboard from './Admin/AdminDashboard'
 import { AdminProvider } from './UserContext/AdminContext'
+import Cart from './pages/Cart'
 
 
 const router =createBrowserRouter([{
@@ -25,6 +26,9 @@ const router =createBrowserRouter([{
   {
     path:'/user',
     element:<User/>
+  },{
+    path:'/cart',
+    element:<Cart/>
   }
 ]
 },{

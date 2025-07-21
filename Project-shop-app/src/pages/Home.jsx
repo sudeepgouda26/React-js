@@ -12,7 +12,7 @@ const Home = () => {
     <div>
       <NavBar/>
       <Carousel/>
-      {user ? (<Product/>) :(<Login/>)}
+      {user && window.location.pathname !== '/cart' ? (<Product/>) : (<Login/>)}
 
    <div>
     <Outlet/>

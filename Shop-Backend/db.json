@@ -94,7 +94,6 @@
     }
   ],
   "orders": [],
-  "categories": [],
   "reviews": [],
   "carts": [
     {
@@ -128,6 +127,102 @@
       "price": "1230",
       "category": "Electronics",
       "image": "https://tse3.mm.bing.net/th/id/OIP.K1IxKRtwdU7YOh1dM9Op9QHaDz?pid=Api&P=0&h=180"
+    },
+    {
+      "id": "",
+      "title": "Mobile",
+      "description": "get shokiphone",
+      "price": "70000",
+      "category": "Electronics",
+      "image": "https://static1.pocketnowimages.com/wordpress/wp-content/uploads/2023/09/pbi-iphone-15.png"
+    },
+    {
+      "id": "",
+      "title": "Charger",
+      "description": "charger",
+      "price": "400",
+      "category": "Electronics",
+      "image": "https://media.croma.com/image/upload/v1675860422/Croma%20Assets/Communication/Chargers%20and%20Batteries/Images/232594_0_lnwm5m.png"
+    },
+    {
+      "id": "",
+      "title": "tv",
+      "description": "watch tv",
+      "price": "23000",
+      "category": "Electronics",
+      "image": "https://tse3.mm.bing.net/th/id/OIP.K1IxKRtwdU7YOh1dM9Op9QHaDz?pid=Api&P=0&h=180"
+    },
+    {
+      "id": "",
+      "title": "Mobile",
+      "description": "get shokiphone",
+      "price": "70000",
+      "category": "Electronics",
+      "image": "https://static1.pocketnowimages.com/wordpress/wp-content/uploads/2023/09/pbi-iphone-15.png"
+    },
+    {
+      "id": "",
+      "title": "tv",
+      "description": "watch tv",
+      "price": "23000",
+      "category": "Electronics",
+      "image": "https://tse3.mm.bing.net/th/id/OIP.K1IxKRtwdU7YOh1dM9Op9QHaDz?pid=Api&P=0&h=180"
+    },
+    {
+      "id": "",
+      "title": "Mobile",
+      "description": "get shokiphone",
+      "price": "70000",
+      "category": "Electronics",
+      "image": "https://static1.pocketnowimages.com/wordpress/wp-content/uploads/2023/09/pbi-iphone-15.png"
+    },
+    {
+      "id": "",
+      "title": "Mobile",
+      "description": "get shokiphone",
+      "price": "70000",
+      "category": "Electronics",
+      "image": "https://static1.pocketnowimages.com/wordpress/wp-content/uploads/2023/09/pbi-iphone-15.png"
+    },
+    {
+      "id": "",
+      "title": "tv",
+      "description": "watch tv",
+      "price": "23000",
+      "category": "Electronics",
+      "image": "https://tse3.mm.bing.net/th/id/OIP.K1IxKRtwdU7YOh1dM9Op9QHaDz?pid=Api&P=0&h=180"
+    },
+    {
+      "id": "",
+      "title": "tv",
+      "description": "watch tv",
+      "price": "23000",
+      "category": "Electronics",
+      "image": "https://tse3.mm.bing.net/th/id/OIP.K1IxKRtwdU7YOh1dM9Op9QHaDz?pid=Api&P=0&h=180"
+    },
+    {
+      "id": "",
+      "title": "Mobile",
+      "description": "get shokiphone",
+      "price": "70000",
+      "category": "Electronics",
+      "image": "https://static1.pocketnowimages.com/wordpress/wp-content/uploads/2023/09/pbi-iphone-15.png"
+    },
+    {
+      "id": "",
+      "title": "Mobile",
+      "description": "get shokiphone",
+      "price": "70000",
+      "category": "Electronics",
+      "image": "https://static1.pocketnowimages.com/wordpress/wp-content/uploads/2023/09/pbi-iphone-15.png"
+    },
+    {
+      "id": "",
+      "title": "Mobile",
+      "description": "get shokiphone",
+      "price": "70000",
+      "category": "Electronics",
+      "image": "https://static1.pocketnowimages.com/wordpress/wp-content/uploads/2023/09/pbi-iphone-15.png"
     }
   ],
   "admin": [
